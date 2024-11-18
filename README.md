@@ -13,7 +13,7 @@ Este proyecto es un sitio web desarrollado para un **Estudio Jurídico** como pa
 
 Puedes acceder al proyecto en línea haciendo clic en el siguiente enlace:
 
-**[Ver sitio en GitHub Pages](https://nadiatrotvilstudent.github.io/EJBootstrap/)**
+**[Ver sitio en GitHub Pages](https://nadiatrotvilstudent.github.io/EJJQuery/)**
 
 ## Estructura del Proyecto
 
@@ -53,7 +53,7 @@ El sitio consta de las siguientes páginas:
 
 1. **Clona el repositorio o descarga los archivos:**
    ```bash
-   git clone <https://github.com/NadiaTrotvilStudent/EJBootstrap.git>
+   git clone <https://github.com/NadiaTrotvilStudent/EJJQuery.git>
 
 
 ├── index.html
