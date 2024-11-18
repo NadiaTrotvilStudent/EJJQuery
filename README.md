@@ -1,47 +1,66 @@
-# Página Web - Interacción con jQuery y Bootstrap
+# Sitio Web - Estudio Jurídico
 
-Este proyecto es una página web que utiliza **jQuery** y **Bootstrap** para implementar una interacción dinámica con botones y una imagen. Es una solución educativa para aprender a trabajar con funciones de jQuery como `hide()` y `show()`, y a diseñar interfaces responsivas con Bootstrap.
+Este proyecto es un sitio web desarrollado para un **Estudio Jurídico** como parte de la materia de **Diseño y Desarrollo Web**. El objetivo principal es aplicar conceptos de HTML, CSS, JavaScript y **Bootstrap** para crear una experiencia visual agradable y funcional.
 
-## Funcionalidades
+## Consigna
 
-1. **Elementos principales:**
-   - Un **título** que cambia dinámicamente según la interacción del usuario.
-   - Dos **botones** con estilos de Bootstrap:
-     - **Ocultar Imagen**: Oculta la imagen y actualiza el título.
-     - **Mostrar Imagen**: Muestra la imagen nuevamente y actualiza el título.
-   - Una **imagen** central que se puede ocultar y mostrar.
-   - Un **footer** informativo similar al proyecto anterior.
+1. Cree un formulario sencillo utilizando **Bootstrap** o **Tailwinds**.
+2. Cree un enlace con todos los inputs del formulario para darles un estilo uniforme (puede ser color, pseudoclases, etc.).
+3. Personalice la web añadiendo un **menú genérico** y un **footer** que se ubique al final de la pantalla (siempre visible, independientemente del contenido).
+4. Muestre un mensaje con **JavaScript** cuando el usuario toque el botón de enviar el formulario.
 
-2. **Cambios dinámicos:**
-   - Al presionar el botón "Ocultar Imagen", el título cambia a **¡No tenemos ninguna imagen!**.
-   - Al presionar el botón "Mostrar Imagen", el título cambia a **¡Mirá la siguiente imagen!**.
+## Visualización en GitHub Pages
 
-3. **Diseño responsivo:**
-   - Se utiliza Bootstrap para asegurar que todos los elementos se adapten a diferentes tamaños de pantalla.
-   - La imagen es más grande y se escala automáticamente en dispositivos pequeños.
+Puedes acceder al proyecto en línea haciendo clic en el siguiente enlace:
 
-## Tecnologías Utilizadas
-
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5**
-- **jQuery 3.6.4**
+**[Ver sitio en GitHub Pages](https://nadiatrotvilstudent.github.io/EJBootstrap/)**
 
 ## Estructura del Proyecto
 
-El proyecto incluye los siguientes archivos:
+El sitio consta de las siguientes páginas:
+
+- **`index.html`**: Página principal con el formulario de consulta.
+- **`areas.html`**: Información sobre las áreas de trabajo del estudio.
+- **`nosotros.html`**: Información sobre el equipo del estudio jurídico.
+- **`contacto.html`**: Página con datos de contacto.
+- **`styles.css`**: Archivo CSS personalizado para el sitio.
+- **`scripts.js`**: Archivo JavaScript para las validaciones y mensajes del formulario.
+
+## Características Principales
+
+### 1. **Formulario de Consulta**
+- Diseñado con **Bootstrap** para un estilo limpio y responsivo.
+- Inputs estilizados uniformemente usando pseudoclases y clases personalizadas.
+- Validaciones adicionales con JavaScript:
+  - El correo debe contener `.com`.
+  - El número de teléfono solo permite números y un carácter `+` opcional al inicio.
+
+### 2. **Menú**
+- Menú genérico con enlaces a todas las secciones del sitio.
+- Responsivo y con funcionalidad de colapso en dispositivos móviles (botón hamburguesa).
+
+### 3. **Footer**
+- Footer informativo que incluye:
+  - Materia, curso y grupo.
+  - Derechos reservados.
+  - Logo de UADE.
+- Estilo adaptado para permanecer al final de la pantalla, incluso si el contenido del body es escaso.
+
+### 4. **Interacción con JavaScript**
+- Al enviar el formulario de consulta, aparece un mensaje amigable de confirmación.
+
+## Instrucciones para Ejecutar el Proyecto
+
+1. **Clona el repositorio o descarga los archivos:**
+   ```bash
+   git clone <https://github.com/NadiaTrotvilStudent/EJBootstrap.git>
+
 
 ├── index.html
-├── scripts.js
+├── areas.html
+├── nosotros.html
+├── contacto.html
 ├── styles.css
+├── scripts.js
 ├── Imagenes/
     └── uade.png
-
-
-## Cómo Ejecutar el Proyecto
-
-### Opción 1: Ejecutar localmente
-1. Clona el repositorio o descarga los archivos:
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-
